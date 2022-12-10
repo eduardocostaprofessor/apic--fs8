@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiFS8Livros", "ApiFS8Livros\ApiFS8Livros.csproj", "{818573E3-C6C8-4F0F-BA9E-28C8F06B1B20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{818573E3-C6C8-4F0F-BA9E-28C8F06B1B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818573E3-C6C8-4F0F-BA9E-28C8F06B1B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818573E3-C6C8-4F0F-BA9E-28C8F06B1B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818573E3-C6C8-4F0F-BA9E-28C8F06B1B20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD8CC86E-FE17-4C25-ABBF-57D89C4D4E63}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+Sobre o material
+Criação do projeto
+Reiterar sobre apis
+
+
+PASTAS
+  Contexts 	- Mapeamento/Informações do banco de dados
+  Controllers	- controle de acesso
+  Interfaces	- Regras/Contratos do sistema
+  Models	- Classes do sistema, representação das tabelas do banco de dados
+  Repositories	- Trabalhar com as operações de CRUD. Está ligada ao Context
+
+Criar a classe SqlContext - igual a do material
+Criar a classe Livro e importar/using na SqlContex
+Configurar a string de conexão na SqlContex
+Criar a classe LivroRepository, com a dependência do context(private/readonly)
+  o repository depende do context
+Criar Controller e informar que vai trabalhar o formato json [Produces("application/json")]
+  o controller depende do repository
+  criar o controller atalho ctor
+  criar a prop LivroRepository readonly
+  criar a função Listar com o try/catch
+
+Adicionar o Context e o Repository na Program.cs
+  builder.Services.AddScoped<SqlContext, SqlContext>();
+  builder.Services.AddTransient<LivroRepository, LivroRepository>();
+
+Mostrar o arquivo de configuração do endereço e porta em Properties/louchSettings.json
+
